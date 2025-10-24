@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding:0;
+}
+html{
+    font-size: 0.8em;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    background-color: aqua;
+}
+div {
+    background-color: darkgrey;
+    width: 300px;
+    height: 100px;
+    border: solid 5px blue;
+    padding: 20px 50px 80px 120px;
+    margin: 50px 100px;
+}
+header {
+    background-color: lightcyan;
+    text-align: center;
+}
+footer {
+    background-color: lightgray;
+    padding: 20px 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+#intro{
+    background-color: cyan;
+    text-align: center;
+    padding: 2rem;
+}
+
+#info {
+    background-color: lightcyan;
+    padding: 2.5rem;
+}
+p {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+nav {
+    padding: 2rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkcyan;
+    text-transform: uppercase;
+}
+nav a:hover {
+    text-decoration: overline;
+}
+#info li:nth-child(odd) {
+    background-color: cyan;
+}
+h2::after{
+    content: "new";
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: yellow;
+    
+}
+table.table-example {
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+table.table-example td,
+table.table-example th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table.table-example th:nth-child(3) {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+table.table-example tr:nth-child(odd) {
+    background-color: lightgray
+}
+
+.my-th {
+    color:cadetblue
+}
+
+.link:hover {
+  color: #000000;
+}
+.link:focus {
+  color: #00e48c;
+  border: 1px solid blue;
+}
+p::first-line {
+    letter-spacing: 0.3rem;
+}
+p{
+	color: rgb(0, 0, 0);
+}
+
+.blue{
+	color: blue;
+}
+
+#last{
+	color: green;
+}
