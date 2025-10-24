@@ -31,6 +31,7 @@
             <ul>
                 <li><a class="link" href="#intro">Введение</a></li>
                 <li><a class="link" href="#info">Информация</a></li>
+                <li><a class="back" href="#back">Обратная связь</a></li>
             </ul>
         </nav>
     </header>
@@ -53,16 +54,67 @@
             <li>Статья</li>
         </ol>
         <table class="table-123">
+            <caption>Таблица</caption>
             <thead>
                 <tr>
-                    <th>1</th>
-                    <th>2</th>
-                    <th>3</th>
-                    <th>4</th>
-                    <th>5</th>
+                    <th>ящики</th>
+                    <th>маринованые</th>
+                    <th>зубы</th>
+                    <th>тёмный</th>
+                    <th>мышь</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>мандарины</td>
+                    <td>шарики</td>
+                    <td>фундук</td>
+                    <td>принц</td>
+                    <td>фольга</td>
+                </tr>
+                <tr>
+                    <td>да</td>
+                    <td>нет</td>
+                    <td>маракасы</td>
+                    <td>имеется</td>
+                    <td>отсутсвует</td>
+                </tr>
+                <tr>
+                    <td>мандарины</td>
+                    <td>шарики</td>
+                    <td>фундук</td>
+                    <td>принц</td>
+                    <td>фольга</td>
+                </tr>
+                <tr>
+                    <td>да</td>
+                    <td>нет</td>
+                    <td>маракасы</td>
+                    <td>имеется</td>
+                    <td>отсутсвует</td>
+                </tr>
+            </tbody>
         </table>
+        <section id="back">
+        <h2>обратная связь</h2>
+        <form action="">
+            <div class="form__item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select><br>
+                <label for="name">имя</label><br>
+                <input name="name" type="text"><br>
+                <label for="email">почта</label><br>
+                <input name="email" type="text"><br>
+                <label for="comment">Текст сообщения</label><br>
+                <textarea name="comment" id="comment"></textarea><br>
+                <input type="submit"><br>
+            </div>
+        </form>
     </main>
     <footer>
         <p>&copy; Лузгин Артур, 2025</p>
